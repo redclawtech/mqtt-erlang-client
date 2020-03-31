@@ -1,0 +1,28 @@
+{application, mqtt_client,
+ [
+  {description, "Simple MQTT client for Erlang"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [kernel,
+		  stdlib,
+		  crypto,
+		  asn1,
+		  public_key,
+		  ssl]},
+  {included_applications, []},
+  {mod, { mqtt_client_app, []}},
+  {env, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github", "https://github.com/redclawtech/mqtt-erlang-client"}]},
+  {files, [
+	   "src",
+	   "include",
+	   "rebar.config",
+	   "rebar.lock",
+	   "README.md",
+	   "NEWS.md",
+	   "LICENSE",
+	   "MAINTAINERS"]}
+ ]
+}.
