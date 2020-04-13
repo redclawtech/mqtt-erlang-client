@@ -54,3 +54,7 @@
 -callback on_publish(Topic :: any(), Payload :: binary(), Opts :: map(), State :: any()) ->
     {ok, State :: any()} |
     {stop, Reason :: any()}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% State Callbacks
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
