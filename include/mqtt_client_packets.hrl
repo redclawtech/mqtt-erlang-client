@@ -20,6 +20,8 @@
 -define(RESERVED, 0).
 -define(PROTOCOL_MAGIC_31, <<"MQIsdp">>).
 -define(PROTOCOL_MAGIC_311, <<"MQTT">>).
+-define(PROTOCOL_MAGIC_5,   <<"MQTT">>).
+-define(PROTOCOL_5, 5).
 -define(MAX_LEN, 16#fffffff).
 -define(HIGHBIT, 2#10000000).
 -define(LOWBITS, 2#01111111).
